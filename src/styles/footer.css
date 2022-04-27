@@ -1,0 +1,35 @@
+.texto-footer p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-bottom: 3px;
+    font-family: 'Montserrat',serif;
+    color: white
+}
+
+.iconos-footer{
+    text-align: right;
+}
+
+.iconos-footer-redes{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.page-footer{
+    padding-top: 50px !important;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+@media (max-width: 575px) {
+    .texto-footer p{
+        text-align: center;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .iconos-footer{
+        text-align: center;
+    }
+}
