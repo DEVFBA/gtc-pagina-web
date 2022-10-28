@@ -171,7 +171,7 @@ function Servicios() {
                         <div className="col-sm a-izquierda">
                             <h1>Capacitación</h1>
                             <p>Ejecutamos capacitaciones de acuerdo con las necesidades y requerimientos de cada Empresa, haciendo mucho más amigable el proceso de adopción de los módulos a utilizar, mismos que van divididos en las siguientes modalidades:</p>
-                            <div className="row">
+                            <div className="row c-row">
                                 <div className="col-sm-2">
                                     <img src={process.env.PUBLIC_URL + '/images/capacitacion2.png'} className = "zoom os-i" width="60" height="60" alt="..." />
                                 </div>
@@ -293,7 +293,7 @@ function Servicios() {
                 </div>
             </div>
 
-            <div className="container tecnologias">
+            <div className="tecnologias">
                 <Row className="justify-content-center">
                     <Col className="col-sm-12 col-md-9 ">
                         <h1 className="tecnologias-title">Tecnologías</h1>
@@ -336,27 +336,24 @@ function Servicios() {
                 </Row>
             </div>
 
-            <div>
-                <div className="container">
-                    <Row className="justify-content-center">
-                        <Col className="col-sm-12 col-md-10 ">
-                            <Card className="s-contact shadow p-3 mb-5 bg-white rounded">
-                                <CardBody>
-                                    <div className="row">
-                                        <div className="col-sm-9">
-                                            <h1 className="s-contact-title">Contáctanos y reciba un presupuesto a su medida</h1>
-                                        </div>
-                                        <div className="col-sm-3">
-                                            <Button className="s-contact-button" onClick={() => {history.push(`/contacto/`);}}><i className="fa fa-phone"/> Contáctanos</Button>
-                                        </div>
+            <div className="container">
+                <Row className="justify-content-center">
+                    <Col className="col-sm-12 col-md-10 ">
+                        <Card className="s-contact shadow p-3 mb-5 bg-white rounded">
+                            <CardBody>
+                                <div className="row">
+                                    <div className="col-sm-9">
+                                        <h1 className="s-contact-title">Contáctanos y recibe un presupuesto a tu medida</h1>
                                     </div>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                    </Row>
-                </div>
+                                    <div className="col-sm-3">
+                                        <Button className="s-contact-button" onClick={() => {history.push(`/contacto/`);}}><i className="fa fa-phone"/> Contáctanos</Button>
+                                    </div>
+                                </div>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                </Row>
             </div>
-
         </>  
     );
 }

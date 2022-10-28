@@ -153,6 +153,10 @@
     border-color: white;
 }
 
+.c-row{
+    margin-top: 50px;
+}
+
 @media (max-width: 575px) {
     .services-1 h1{
         font-size: 20px;

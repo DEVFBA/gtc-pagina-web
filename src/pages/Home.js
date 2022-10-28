@@ -92,30 +92,32 @@ function Home() {
             </div>*/}
             
             <div className="our-services">
-                <Row className="justify-content-center">
-                    <Col className="col-sm-12 col-md-7 ">
-                        <h1 className="our-services-title">Nuestros servicios</h1>
-                        <p className="our-services-parrafo">están enfocados al desarrollo, crecimiento y funcionalidad de los tres grandes elementos que constituyen a toda empresa o proyecto:</p>
-                    </Col>
-                </Row>
                 <div className="container">
                     <Row className="justify-content-center">
-                        <Col className="col-sm-12 col-md-4 text-center">
-                            <img src={process.env.PUBLIC_URL + '/images/tecnologia.png'} className = "zoom os-i" width="70" height="70" alt="..." />
-                            <h1 className="our-services-item-t">Tecnología</h1>
-                            <p className="our-services-item-p">Consultoría en el sistema JD Edwards – E1, Desarrollos en .NET, JAVA, Desarrollos Web con tecnología React.js / Node.js.</p>
-                        </Col>
-                        <Col className="col-sm-12 col-md-4 text-center">
-                            <img src={process.env.PUBLIC_URL + '/images/proceso.png'} className = "zoom os-i" width="70" height="70" alt="..." />
-                            <h1 className="our-services-item-t">Procesos</h1>
-                            <p className="our-services-item-p">Apoyo en la definición, documentación y/o redefinición de procesos, buscando siempre que los clientes saquen mayor provecho.</p>
-                        </Col>
-                        <Col className="col-sm-12 col-md-4 text-center">
-                            <img src={process.env.PUBLIC_URL + '/images/personal.png'} className = "zoom os-i" width="70" height="70" alt="..." />
-                            <h1 className="our-services-item-t">Personal</h1>
-                            <p className="our-services-item-p">Contamos con personal altamente capacitado en cada una de las áreas que manejamos para brindar el mejor servicio.</p>
+                        <Col className="col-sm-12 col-md-7 ">
+                            <h1 className="our-services-title">Nuestros servicios</h1>
+                            <p className="our-services-parrafo">están enfocados al desarrollo, crecimiento y funcionalidad de los tres grandes elementos que constituyen a toda empresa o proyecto:</p>
                         </Col>
                     </Row>
+                    <div className="container">
+                        <Row className="justify-content-center">
+                            <Col className="col-sm-12 col-md-4 text-center">
+                                <img src={process.env.PUBLIC_URL + '/images/tecnologia.png'} className = "zoom os-i" width="70" height="70" alt="..." />
+                                <h1 className="our-services-item-t">Tecnología</h1>
+                                <p className="our-services-item-p">Consultoría en el sistema JD Edwards – E1, Desarrollos en .NET, JAVA, Desarrollos Web con tecnología React.js / Node.js.</p>
+                            </Col>
+                            <Col className="col-sm-12 col-md-4 text-center">
+                                <img src={process.env.PUBLIC_URL + '/images/proceso.png'} className = "zoom os-i" width="70" height="70" alt="..." />
+                                <h1 className="our-services-item-t">Procesos</h1>
+                                <p className="our-services-item-p">Apoyo en la definición, documentación y/o redefinición de procesos, buscando siempre que los clientes saquen mayor provecho.</p>
+                            </Col>
+                            <Col className="col-sm-12 col-md-4 text-center">
+                                <img src={process.env.PUBLIC_URL + '/images/personal.png'} className = "zoom os-i" width="70" height="70" alt="..." />
+                                <h1 className="our-services-item-t">Personal</h1>
+                                <p className="our-services-item-p">Contamos con personal altamente capacitado en cada una de las áreas que manejamos para brindar el mejor servicio.</p>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </div>
 
@@ -164,7 +166,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className="callme">
+            <div className=" callme">
                 <div className="container">
                     <Row className="justify-content-center">
                         <Col className="col-sm-12 col-md-9 ">
@@ -209,7 +211,7 @@ function Home() {
                             <Card className="clientes">
                                 <CardBody>
                                     <img src={process.env.PUBLIC_URL + '/images/bic.png'} className="img-fluid" alt="..." />
-                                 </CardBody>
+                                    </CardBody>
                             </Card>
                         </div>
                         <div className="col-sm">
@@ -370,22 +372,20 @@ function Home() {
                     </div>
                 </div>
             </div>
-
-            <div>
-                <div className="container">
-                    <Row className="justify-content-center">
-                        <Col className="col-sm-12 col-md-10 ">
-                            <Card className="contactanos shadow p-3 mb-5 bg-white rounded">
-                                <CardBody>
-                                    <h1 className="contactanos-subtitle">Creamos el sistema</h1>
-                                    <h1 className="contactanos-title">Que su empresa necesita</h1>
-                                    <p className="contactanos-parrafo">Contáctenos y reciba un presupuesto a su medida</p>
-                                    <Button className="contactanos-button" onClick={() => {history.push(`/contacto/`);}}><i className="fa fa-phone"/> Contáctanos</Button>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                    </Row>
-                </div>
+           
+            <div className="container">
+                <Row className="justify-content-center">
+                    <Col className="col-sm-12 col-md-10 ">
+                        <Card className="contactanos shadow p-3 mb-5 bg-white rounded">
+                            <CardBody>
+                                <h1 className="contactanos-subtitle">Creamos el sistema</h1>
+                                <h1 className="contactanos-title">Que su empresa necesita</h1>
+                                <p className="contactanos-parrafo">Contáctenos y reciba un presupuesto a su medida</p>
+                                <Button className="contactanos-button" onClick={() => {history.push(`/contacto/`);}}><i className="fa fa-phone"/> Contáctanos</Button>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                </Row>
             </div>
         </>  
     );

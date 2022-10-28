@@ -138,49 +138,47 @@ function Contacto() {
                 </div>
             </section>
 
-            <div className="contact-options">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm text-center">
-                            <Card className="card-options shadow p-3 mb-5 bg-white rounded">
-                                <CardBody>
-                                    <img src={process.env.PUBLIC_URL + '/images/ubicacion.png'} className = "zoom os-i" width="70" height="70" alt="..." />
-                                    <h1 className="co-title">Dirección</h1>
-                                    <p className="co-parrafo"> <i className="fa fa-thumb-tack"/> Calle Recreo 17, Colonia Actipan, Alcaldía Benito Juárez, C.P. 03230 CDMX</p>
-                                    <a className="buttons-link" href="https://goo.gl/maps/jX3rGkKkZh1TZLXC8" target="_blank">
-                                        <p className="azul-link zoom2">Ver ubicación en Google <i className="fa fa-chevron-right"></i></p>
-                                    </a>
-                                </CardBody>
-                            </Card>
-                        </div>
-                        <div className="col-sm text-center">
-                            <Card className="card-options shadow p-3 mb-5 bg-white rounded">
-                                <CardBody>
-                                    <img src={process.env.PUBLIC_URL + '/images/correo.png'} className = "zoom os-i" width="70" height="70" alt="..." />
-                                    <h1 className="co-title">Correo Electrónico</h1>
-                                    <p className="co-parrafo-phone"> <i className="fa fa-envelope"/> contacto@gtcta.mx</p>
-                                    <p className="co-parrafo-phone"> <i className="fa fa-envelope"/> egutierrez@gtcta.mx</p>
-                                    <a className="buttons-link" href="mailto:contacto@gtcta.mx">
-                                        <Button className="verde-button"><i className="fa fa-phone"/> Contáctanos</Button>
-                                    </a>
-                                </CardBody>
-                            </Card>
-                        </div>
-                        <div className="col-sm text-center">
-                            <Card className="card-options shadow p-3 mb-5 bg-white rounded">
-                                <CardBody>
-                                    <img src={process.env.PUBLIC_URL + '/images/phone.png'} className = "zoom os-i" width="70" height="70" alt="..." />
-                                    <h1 className="co-title">Teléfono</h1>
-                                    <p className="co-parrafo-phone"> <i className="fa fa-phone"/> 55 8752 9892</p>
-                                    <p className="co-parrafo-phone"> <i className="fa fa-phone"/> 55 8752 9893</p>
-                                    <p className="co-parrafo-phone"> <i className="fa fa-phone"/> 55 4336 2032</p>
-                                    <p className="co-parrafo-phone"> <i className="fa fa-phone"/> 55 7589 0477</p>
-                                    <a className="buttons-link" href="tel:5587529892" target="_blank">
-                                        <p className="rojo-link zoom2">Llamar ahora <i className="fa fa-chevron-right"></i></p>
-                                    </a>
-                                </CardBody>
-                            </Card>
-                        </div>
+            <div className="container contact-options">
+                <div className="row">
+                    <div className="col-sm text-center">
+                        <Card className="card-options shadow p-3 mb-5 bg-white rounded">
+                            <CardBody>
+                                <img src={process.env.PUBLIC_URL + '/images/ubicacion.png'} className = "zoom os-i" width="70" height="70" alt="..." />
+                                <h1 className="co-title">Dirección</h1>
+                                <p className="co-parrafo"> <i className="fa fa-thumb-tack"/> Calle Recreo 17, Colonia Actipan, Alcaldía Benito Juárez, C.P. 03230 CDMX</p>
+                                <a className="buttons-link" href="https://goo.gl/maps/jX3rGkKkZh1TZLXC8" target="_blank">
+                                    <p className="azul-link zoom2">Ver ubicación en Google <i className="fa fa-chevron-right"></i></p>
+                                </a>
+                            </CardBody>
+                        </Card>
+                    </div>
+                    <div className="col-sm text-center">
+                        <Card className="card-options shadow p-3 mb-5 bg-white rounded">
+                            <CardBody>
+                                <img src={process.env.PUBLIC_URL + '/images/correo.png'} className = "zoom os-i" width="70" height="70" alt="..." />
+                                <h1 className="co-title">Correo Electrónico</h1>
+                                <p className="co-parrafo-phone"> <i className="fa fa-envelope"/> contacto@gtcta.mx</p>
+                                <p className="co-parrafo-phone"> <i className="fa fa-envelope"/> egutierrez@gtcta.mx</p>
+                                <a className="buttons-link" href="mailto:contacto@gtcta.mx">
+                                    <Button className="verde-button"><i className="fa fa-phone"/> Contáctanos</Button>
+                                </a>
+                            </CardBody>
+                        </Card>
+                    </div>
+                    <div className="col-sm text-center">
+                        <Card className="card-options shadow p-3 mb-5 bg-white rounded">
+                            <CardBody>
+                                <img src={process.env.PUBLIC_URL + '/images/phone.png'} className = "zoom os-i" width="70" height="70" alt="..." />
+                                <h1 className="co-title">Teléfono</h1>
+                                <p className="co-parrafo-phone"> <i className="fa fa-phone"/> 55 8752 9892</p>
+                                <p className="co-parrafo-phone"> <i className="fa fa-phone"/> 55 8752 9893</p>
+                                <p className="co-parrafo-phone"> <i className="fa fa-phone"/> 55 4336 2032</p>
+                                <p className="co-parrafo-phone"> <i className="fa fa-phone"/> 55 7589 0477</p>
+                                <a className="buttons-link" href="tel:5587529892" target="_blank">
+                                    <p className="rojo-link zoom2">Llamar ahora <i className="fa fa-chevron-right"></i></p>
+                                </a>
+                            </CardBody>
+                        </Card>
                     </div>
                 </div>
             </div>
